@@ -33,7 +33,7 @@ class Drawer extends PureComponent<DrawerProperties> {
     } = this.props;
     return (
       <RNDrawer
-        ref={c => (this._root = c)}
+        ref={(c: any) => (this._root = c)}
         {...props}
       />
     )
