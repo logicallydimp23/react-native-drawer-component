@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react"
 
 import RNDrawer, { DrawerProperties } from "react-native-drawer"
-import baseConfig from "../../../src/config/themes";
+import { baseConfig } from '../../../src/config/themes';
 
 class Drawer extends PureComponent<DrawerProperties> {
   public static defaultProps = {
